@@ -15,7 +15,7 @@ I'm a motivated web developer with a background in BA (Computer Science) and han
 ## 📄 Resume
 
 You can view or download my latest resume here:
-👉 [Click to View Resume](./Muskan_Ghedta_Resume.pdf)
+👉 [Click to View Resume](https://muskan-resume.netlify.app/)
 
 ## 🛠️ How to Use
 
