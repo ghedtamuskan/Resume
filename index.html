@@ -11,6 +11,7 @@ body {
   font-family: Calibri, sans-serif;
   margin: 10px auto;
   max-width: 700px;
+  height:100%;
   background-color: #fff;
   color: #333;
 
@@ -47,7 +48,8 @@ h2 {
   font-size: 18px;
   color: #131313;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 2px;
+
+  
 
 }
 
@@ -64,7 +66,7 @@ margin:2px;
   justify-content: space-between;
   font-weight: bold;
   flex-wrap: wrap;
-  gap: 4px;
+ 
   
 }
 
@@ -75,11 +77,13 @@ margin:2px;
 
 }
 
-
+p,li{
+  font-size:15px;
+}
 
 /* Lists */
 ul {
-margin-top: 5px;
+margin-top: 3px;
   padding: 0;
   color:#373636
 }
@@ -96,7 +100,10 @@ a:hover {
   text-decoration: underline;
 }
 
-
+.certifications .two-column li {
+  font-weight: normal;
+ color:#111111
+}
 
 /* Responsive for Mobile Devices */
 @media (max-width: 600px) {
@@ -133,128 +140,99 @@ a:hover {
 
   <div class="section">
     <h2 >PROFILE</h2>
-    <p >Fresher MERN Stack Web Developer with solid understanding of web technologies including React, Node.js, Express, and MongoDB. Actively using AI tools to accelerate development and automate repetitive tasks. Quick learner with strong problem-solving skills and debugging skills.</p> 
+    <p >Full Stack Web Developer with hands-on experience building production-ready web applications using React, Next.js, Node.js, and databases. Strong understanding of authentication, API integration, and deployment workflows. Actively using AI tools to accelerate development and automate repetitive tasks.</p> 
+  </div>
+
+
+  <div class="section">
+    <h2> SKILLS</h2>
+<p><strong>FRONTEND:</strong> HTML • CSS • JavaScript • React.js • Next.js • Tailwind CSS </p>
+<p><strong>BACKEND:</strong> Node.js • Express.js • REST APIs • JWT Authentication</p>
+<p><strong>DATABASE:</strong> MongoDB • Mongoose • MySQL • Prisma ORM</p>
+<p><strong>TOOLS:</strong> Git • GitHub • Redux Toolkit • Render • Vercel </p>
+<p><strong>SOFT SKILLS:</strong> Digital Intelligence • Fast learner • Tech-adaptive • Team collaboration • Problem-solving</p>
+
   </div>
 
   <div class="section">
+    <h2 >PROJECTS</h2>
+        <div class="two-column">
+      <span><a href="https://ai-carrer-coach-gray.vercel.app/" target="_blank">AI Career Coach – AI-Powered Career Guidance Platform</a></span>
+      <span>Nov 2025 – Feb 2026</span>
+    </div>
+    <ul>
+    <li>Built a production-ready AI-powered SaaS-style platform that helps users generate personalized cover letters, prepare for interviews, and receive career guidance.</li>
+      <li>Built using modern web technologies with secure authentication and scalable backend architecture.</li> 
+      <span style="display:block; margin-top:5px">
+          <a href="https://github.com/ghedtamuskan/ai-carrer-coach.git" target="_blank">GitHub</a> | 
+       <a href="https://ai-carrer-coach-gray.vercel.app/" target="_blank">Live</a> 
+     
+     </span>
+    </ul>
+    <div class="two-column">
+      <span><a href="https://major-web-dev-project.onrender.com" target="_blank">Vacation Rental Marketplace – MERN Stack Application</a></span>
+      <span>Apr 2025 – Jun 2025</span>
+    </div>
+    <ul>
+    <li>Developed a fully functional Airbnb-like web application using MERN stack.</li>
+      <li>Implemented features like CRUD operations, data management, error handling, user authentication/authorization, MVC, property listings,  search filters and deployment with render . </li> 
+      <span style="display:block; margin-top:5px">
+          <a href="https://github.com/ghedtamuskan/major-web-dev-project" target="_blank">GitHub </a> | 
+       <a href="https://major-web-dev-project.onrender.com" target="_blank">Live</a>
+   
+     </span>
+    </ul>
+
+    <div class="section">
     <h2 >EDUCATION</h2>
     <div class="two-column">
       <span>  Master of Computer Applications – Pursuing</span>
       <span>2025 – Present</span>
+       
        </div>
-    <p class="light">Online / Remote Learning Mode</p>
+    <p class="light">Chandigarh University</p>
   
     <div class="two-column">
       <span> Bachelor of Arts in Computer Science –  Degree College Solan</span>
       <span> Aug 2022 – 2025</span>
 </div>
   <div class="light">
-  <span>Affiliated to Himachal Pradesh University</span><br>
-  <span> Relevant Subject: Computer Science</span>
+  <span><li>Himachal Pradesh University</span></li>
+
 </div>
 
  
  </div>
-  <div class="section">
-    <h2> SKILLS</h2>
-<p><strong>FRONTEND:</strong> HTML • CSS • JavaScript • React.js • Tailwind CSS</p>
-<p><strong>BACKEND:</strong> Node.js • Express.js • REST APIs • JWT Authentication</p>
-<p><strong>DATABASE:</strong> MongoDB • Mongoose • SQL</p>
-<p><strong>TOOLS:</strong> Redux Toolkit • Git • GitHub • Render • ChatGPT</p>
-<p><strong>SOFT SKILLS:</strong> Fast learner • Tech-adaptive • Team collaboration • Problem-solving • Growth mindset</p>
-
   </div>
+    
+ <div class="section certifications">
+  <h2>CERTIFICATIONS</h2>
 
-
-  </div>
-
-  <div class="section">
-    <h2 >PROJECTS</h2>
-    <div class="two-column">
-      <span><a href="https://major-web-dev-project.onrender.com" target="_blank">Airbnb Clone – Full Stack Web App</a></span>
-      <span>Apr 2025 – Jun 2025</span>
-    </div>
-    <ul>
-    <li>Developed a fully functional Airbnb-like web application using MERN stack.</li>
-      <li>Implemented features like CRUD operations, error handling, user authentication/authorization, MVC, property listings,  search filters and deployment with render . </li> 
-      <span style="display:block; margin-top:5px">
-          <a href="https://github.com/ghedtamuskan/major-web-dev-project" target="_blank">GitHub Repo</a> | 
-       <a href="https://major-web-dev-project.onrender.com" target="_blank">Live Demo</a> |
-     <a href="javascript:void(0);" id="toggleProjectsBtn" class="see-more-link">See More Projects</a>
-     </span>
-    </ul>
-
-      <!-- hidden section -->
-<!-- hidden section -->
-<div id="moreProjects" style="display: none; margin-top: 12px;">
-
-  <!-- To-Do App -->
   <div class="two-column">
-    <span><a href="https://muskantodo.netlify.app" target="_blank">Todo App – React + Redux</a></span>
-    <span>Jul 2025</span>
+    <li>Full Stack Web Development</li>
+    <span>Mar 2025</span>
   </div>
-  <ul style="margin-top: 6px; margin-bottom: 3px;">
-    <li>Developed a modular React + Redux Toolkit Todo app with full functionality: add, delete, and mark tasks.</li>
-    <li>Used state slices for clean reducer logic.</li>
-  </ul>
-  <p style="margin-top: 2px; margin-bottom: 10px;">
-    <a href="https://github.com/ghedtamuskan/Todo-App.git" target="_blank">GitHub</a> |
-    <a href="https://muskantodo.netlify.app" target="_blank">Live</a>
-  </p>
 
-  <!-- Weather App -->
   <div class="two-column">
-    <span><a href="https://ghedta-weather.netlify.app" target="_blank">Weather App – React + API</a></span>
-    <span>Jul 2025</span>
+    <li>Introduction to Artificial Intelligence</li>
+    <span>May 2025</span>
   </div>
-  <ul style="margin-top: 6px; margin-bottom: 4px;">
-    <li>Created a small weather app using React + OpenWeatherMap API.</li>
-    <li>Integrated user input handling, async API calls, error display, and weather data rendering .</li>
-  </ul>
-  <p style="margin-top: 2px;">
-    <a href="https://github.com/ghedtamuskan/weather-app" target="_blank">GitHub</a> |
-    <a href="https://ghedta-weather.netlify.app" target="_blank">Live</a>
-  </p>
+
+  <div class="two-column">
+    <li>Digital Intelligence</li>
+    <span>Jun 2025</span>
+  </div>
+
+  <div class="two-column">
+    <li>Coding Fundamentals Certification</li>
+    <span>Sep 2025</span>
+  </div>
 
 </div>
 
-  <!-- hidden section end -->
-  </div>
-    <div class="section">
-    <h2 >CERTIFICATION</h2>
-    <div class="two-column">
-      <span><a href="https://drive.google.com/file/d/1MXzxFUxyv3OV50SdgTqopcho55ZoC0pW/view"target="_blank">Delta Full Stack Web Development – Apna College</a></a></span>
-      <span>Mar 2025</span>
-    </div>
-<ul>
-      <li>Completed a practical Full Stack Web Development course focused on building dynamic web applications using html, css, javascript,react, node.js, express, mongodb and databases.</li> 
-       <li>Gained hands-on experience with user authentication, RESTful APIs, and modern deployment techniques.</li>
-</ul>
-  </div>
 
-  <div class="section">
-    <h2 >ACHIEVEMENTS</h2>
-    <ul>
-      <li>Built and deployed full-stack MERN apps using HTML, CSS, Tailwind, Javascript, Mongodb, Express, React,Node js including Redux, MVC and APIs</li>
-      <li>Maintained GitHub repositories with version control and documentation and deployment using Render and Netlify</li>
-      <li>Completed real-world web features including authentication, routing, and backend APIs</li>
-    </ul>
-  </div>
 
-  <script>
-  const btn = document.getElementById('toggleProjectsBtn');
-  const section = document.getElementById('moreProjects');
 
-  btn.addEventListener('click', () => {
-    if (section.style.display === "none") {
-      section.style.display = "block";
-      btn.textContent = "Hide Projects";
-    } else {
-      section.style.display = "none";
-      btn.textContent = "See More Projects";
-    }
-  });
-</script>
 
 </body>
 </html>
