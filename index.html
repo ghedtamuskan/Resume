@@ -9,14 +9,14 @@
 <style>/* Resume Layout & Typography */
 body {
   font-family: Calibri, sans-serif;
-  margin: 10px auto;
-  max-width: 700px;
+  margin: 7px auto;
+  max-width: 800px;
   height:100%;
   background-color: #fff;
   color: #333;
 
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 8px;
 }
 
 /* Name and Subtitle */
@@ -45,6 +45,7 @@ h1 {
 
 /* Section Headings */
 h2 {
+  margin:6px 0 4px 0;
   font-size: 18px;
   color: #131313;
   border-bottom: 1px solid #ddd;
@@ -55,7 +56,7 @@ h2 {
 
 
 p {
-margin:2px;
+margin:3px 0;
   font-size: 15px;
   color: #444;
 }
@@ -68,6 +69,10 @@ margin:2px;
   flex-wrap: wrap;
  
   
+}
+.project-title {
+  font-weight:400;
+    text-decoration: none;
 }
 
 /* Subtext */
@@ -83,16 +88,22 @@ p,li{
 
 /* Lists */
 ul {
-margin-top: 3px;
-  padding: 0;
+margin: 4px 0 8px 0;
+padding-left: 16px;
   color:#373636
+}
+li {
+margin-bottom: 2px;
+}
+.section {
+margin-bottom: 10px;
 }
 
 
 
 /* Links */
 a {
-  color: #007acc;
+  color: #216fd4;
   text-decoration: none;
 }
 
@@ -125,60 +136,99 @@ a:hover {
   .subtitle {
     font-size: 16px;
   }
-}</style>
+}
+@media print {
+
+body{
+box-shadow:none;
+margin:0;
+max-width:100%;
+}
+
+a{
+
+text-decoration:none;
+}
+
+}
+</style>
 </head>
 <body>
   <h1>MUSKAN GHEDTA</h1>
   <p class="subtitle "> Web Developer</p>
   <p class="contact">
-<i class="fa-solid fa-phone"></i> <a href="tel:+919317716345">+91-9317716345</a> | 
-    <i class="fa-solid fa-envelope"></i> <a href="mailto:ghedtamuskan@gmail.com">ghedtamuskan@gmail.com</a> | 
-    <i class="fa-brands fa-github"></i> <a href="https://github.com/ghedtamuskan" target="_blank">GitHub</a>
+<a href="tel:+919317716345">+91-9317716345</a> | 
+    <a href="mailto:ghedtamuskan@gmail.com">ghedtamuskan@gmail.com</a> | 
+ <a href="https://github.com/ghedtamuskan" target="_blank">GitHub  </a>: ghedtamuskan|
+<a href="https://www.linkedin.com/in/muskanghedta/">LinkedIn</a>: muskanghedta 
   
  
   </p>
 
   <div class="section">
     <h2 >PROFILE</h2>
-    <p >Full Stack Web Developer with hands-on experience building production-ready web applications using React, Next.js, Node.js, and databases. Strong understanding of authentication, API integration, and deployment workflows. Actively using AI tools to accelerate development and automate repetitive tasks.</p> 
+    <p >
+Full Stack Web Developer experienced in building scalable web applications using React.js, Next.js, Node.js, and MongoDB. Skilled in developing REST APIs, implementing authentication systems, and deploying production-ready applications. Strong focus on performance optimization, clean architecture, and solving real-world problems through modern web technologies and AI-assisted development tools.
+</p>
   </div>
 
 
   <div class="section">
     <h2> SKILLS</h2>
-<p><strong>FRONTEND:</strong> HTML • CSS • JavaScript • React.js • Next.js • Tailwind CSS </p>
-<p><strong>BACKEND:</strong> Node.js • Express.js • REST APIs • JWT Authentication</p>
-<p><strong>DATABASE:</strong> MongoDB • Mongoose • MySQL • Prisma ORM</p>
-<p><strong>TOOLS:</strong> Git • GitHub • Redux Toolkit • Render • Vercel </p>
-<p><strong>SOFT SKILLS:</strong> Digital Intelligence • Fast learner • Tech-adaptive • Team collaboration • Problem-solving</p>
+<p><strong>Frontend:</strong> HTML5, CSS3, JavaScript, React.js, Next.js, Tailwind CSS</p>
+<p><strong>Backend:</strong> Node.js, Express.js, REST APIs, JWT Authentication</p>
+<p><strong>Database:</strong> MongoDB, MySQL, Prisma ORM</p>
+<p><strong>Tools:</strong> Git, GitHub, Redux Toolkit, Vercel, Render</p>
+<!-- <p><strong>SOFT SKILLS:</strong> Digital Intelligence • Fast learner • Tech-adaptive • Team collaboration • Problem-solving</p> -->
 
   </div>
 
   <div class="section">
     <h2 >PROJECTS</h2>
         <div class="two-column">
-      <span><a href="https://ai-carrer-coach-gray.vercel.app/" target="_blank">AI Career Coach – AI-Powered Career Guidance Platform</a></span>
-      <span>Nov 2025 – Feb 2026</span>
+      <a class="project-title" href="https://ai-carrer-coach-gray.vercel.app/" target="_blank">AI Career Coach – AI-Powered Career Guidance Platform</a>
+      <span>March 2025 – May 2025</span>
     </div>
     <ul>
-    <li>Built a production-ready AI-powered SaaS-style platform that helps users generate personalized cover letters, prepare for interviews, and receive career guidance.</li>
+           <li><strong>Tech Stack:</strong> Next.js, React.js, Tailwind, OpenAi API, NeonDB, Inngest</li>
+    <li>Built a production-ready AI-powered SaaS-style platform that helps users generate personalized cover letters,built resume, prepare for interviews, and receive career guidance.</li>
       <li>Built using modern web technologies with secure authentication and scalable backend architecture.</li> 
-      <span style="display:block; margin-top:5px">
+      <li>Designed scalable backend architecture and deployed the application using Vercel.</li>
+    <p style="margin:2px 0 6px 0px;">
           <a href="https://github.com/ghedtamuskan/ai-carrer-coach.git" target="_blank">GitHub</a> | 
        <a href="https://ai-carrer-coach-gray.vercel.app/" target="_blank">Live</a> 
-     
-     </span>
+     </p>
+   
     </ul>
     <div class="two-column">
-      <span><a href="https://major-web-dev-project.onrender.com" target="_blank">Vacation Rental Marketplace – MERN Stack Application</a></span>
-      <span>Apr 2025 – Jun 2025</span>
+      <a class="project-title" href="https://major-web-dev-project.onrender.com" target="_blank">Vacation Rental Marketplace – MERN Stack Application</a>
+      <span>August 2025 – October 2025</span>
     </div>
     <ul>
-    <li>Developed a fully functional Airbnb-like web application using MERN stack.</li>
-      <li>Implemented features like CRUD operations, data management, error handling, user authentication/authorization, MVC, property listings,  search filters and deployment with render . </li> 
-      <span style="display:block; margin-top:5px">
+     <li><strong>Tech Stack:</strong> MongoDB, Express.js, React.js, Node.js</li>
+    <li>Developed a full-stack vacation rental marketplace using MERN stack supporting property listings, search filters, and secure authentication.</li>
+      <li>Implemented MVC architecture, CRUD operations, and error handling to ensure scalable and maintainable backend design. </li> 
+        <p style="margin:2px 0 6px 0px;">
           <a href="https://github.com/ghedtamuskan/major-web-dev-project" target="_blank">GitHub </a> | 
        <a href="https://major-web-dev-project.onrender.com" target="_blank">Live</a>
+   </p>
+    </ul>
+     <div class="two-column">
+      <a class="project-title" href="https://3d-portfolio-8t9c-git-main-ghedtamuskans-projects.vercel.app/" target="_blank">Interactive 3D Developer Portfolio</a>
+      <span>January 2026 – March 2026</span>
+    </div>
+    <ul>
+    <li><strong>Tech Stack:</strong> React.js, Three.js, React Three Fiber, Tailwind CSS, Vite</li>
+  <li>Designed and developed an interactive 3D developer portfolio to showcase projects and technical skills.</li>
+
+  <li>Implemented real-time 3D models, animations, and camera interactions using Three.js and React Three Fiber.</li>
+
+  <li>Optimized performance and responsiveness for smooth rendering across devices and screen sizes.</li>
+
+ 
+      <span>
+          <a href="https://github.com/ghedtamuskan/3d-portfolio" target="_blank">GitHub </a> | 
+       <a href="https://3d-portfolio-8t9c-git-main-ghedtamuskans-projects.vercel.app/" target="_blank">Live</a>
    
      </span>
     </ul>
@@ -197,7 +247,7 @@ a:hover {
       <span> Aug 2022 – 2025</span>
 </div>
   <div class="light">
-  <span><li>Himachal Pradesh University</span></li>
+<p class="light">Himachal Pradesh University</p>
 
 </div>
 
@@ -207,7 +257,7 @@ a:hover {
     
  <div class="section certifications">
   <h2>CERTIFICATIONS</h2>
-
+<ul>
   <div class="two-column">
     <li>Full Stack Web Development</li>
     <span>Mar 2025</span>
@@ -227,7 +277,7 @@ a:hover {
     <li>Coding Fundamentals Certification</li>
     <span>Sep 2025</span>
   </div>
-
+</ul>
 </div>
 
 
